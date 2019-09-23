@@ -3,7 +3,7 @@
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Hello World | Hexo</title>
+  <title>postName | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="John Doe">
   <meta name="keywords" content>
@@ -48,9 +48,9 @@
   <div class="overlay">
   <div class="page-title">
     <div class="avatar"><a href="/"><img src="/images/person_1.jpg"></a></div>
-    <span>2019-09-23</span>
-    <h2>Hello World</h2>
-    
+    <span>2013-12-02</span>
+    <h2>postName</h2>
+    <div class="tags"><i class="fa fa-tag"></i><a class="tag-link" href="/tags/tag1/">tag1</a> <i class="fa fa-tag"></i><a class="tag-link" href="/tags/tag2/">tag2</a> <i class="fa fa-tag"></i><a class="tag-link" href="/tags/tag3/">tag3</a></div>
     </div>
 </div>
 </div>
@@ -58,19 +58,11 @@
   <div class="lx-post">
     <div class="lx-entry padding">
       <div>
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <p>以下是正文</p>
+<p>诶。这里是我的草稿纸，现在想的问题嫩，我觉得是现在有限的时间能够学一些实实在在的东西。<br>讲实话，现在有一些迷茫，不知道学点什么才好。那就还是刷源码吧<br>立一个小目标，从Activity类开始。</p>
+<p>好了，学了一天了<br>白天跟踪finishActivity()的实现时，跟丢的IActivityManager终于被我找到了<br>明天可以继续探索finishActivity()的实现。<br>当一个类引用了一个接口，那么就可以按照里氏替换原则，并实现了这个接口里的方法，那么接口的实例化类，就可以可以直接使用这个方法。<br>现在已经知道了finishActivity()是写在IActivityManager这个接口里的，那么接下来的目标就是寻找是谁实现了这个方法。</p>
+<p>另外，看源码看到了SharedPreferences，那么就可以继续看书上的内容<br>留下来的疑问便是，它的缓存机制。<br>源码分析：<a href="https://blog.csdn.net/Double2hao/article/details/53856708" target="_blank" rel="noopener">https://blog.csdn.net/Double2hao/article/details/53856708</a></p>
+<p>深夜档<br>我们跟着ActivityManager类，找到了getService()方法，但是这个方法返回的是一个IActivityManager对象。而IActivityManager只是一个接口，</p>
 
       </div>
     </div>
@@ -79,12 +71,12 @@
 <div class="lx-navigation">
 	<div class="lx-cover prev lx-cover-sm" style="background-image: url(/images/footer_1.jpg)">
 		<div class="overlay"></div>
-		<a class="copy" href="/2019/09/23/test-blog/">
+		<a class="copy" href="/2019/09/23/hello-world/">
 			<div class="display-t">
 				<div class="display-tc">
 					<div>
 						<span>Next</span>
-						<h3>test blog</h3>
+						<h3>Hello World</h3>
 					</div>
 				</div>
 			</div>
@@ -92,12 +84,12 @@
 	</div>
         <div class="lx-cover next lx-cover-sm" style="background-image: url(/images/footer_2.jpg)">
 		<div class="overlay"></div>
-		<a class="copy" href="/2013/12/02/garbage/">
+		<a class="copy" href="#">
 			<div class="display-t">
 				<div class="display-tc">
 					<div>
 						<span>Prev</span>
-						<h3>postName</h3>
+						<h3>没有更早的文章</h3>
 					</div>
 				</div>
 			</div>
